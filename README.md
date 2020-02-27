@@ -1,5 +1,9 @@
 # el-carritode-compras
 algoritmo de un carro  de compras en lenguaje c 
+
+
+
+
 #include <stdio.h>
 #define TAM 5
 void menu();
