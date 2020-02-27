@@ -5,17 +5,26 @@ algoritmo de un carro  de compras en lenguaje c
 
 
 #include <stdio.h>
+
 #define TAM 5
+
 void menu();
+
 void mostrar_articulos();
+
 void agregar();
+
 void eliminar();
+
 void mostrar_carrito();
 
 
 char *articulos[TAM]= {"1","2","3","4","5"};
+
 int cantidad[TAM]= {0,0,0,0,0};
+
 int precio[TAM]= {0,0,0,0,0};
+
 int carrito[TAM]= {0,0,0,0,0};
 
 
